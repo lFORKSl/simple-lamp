@@ -22,6 +22,7 @@ CREATE DATABASE IF NOT EXISTS simple_lamp;
 CREATE USER IF NOT EXISTS 'username'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
 
+USE simple_lamp;
 DROP TABLE IF EXISTS `upload_images`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
