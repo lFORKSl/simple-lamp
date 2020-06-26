@@ -19,8 +19,8 @@
 -- Table structure for table `upload_images`
 --
 CREATE DATABASE IF NOT EXISTS simple_lamp;
-CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON simple_lamp.* TO 'username'@'localhost';
+CREATE USER IF NOT EXISTS 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
 
 DROP TABLE IF EXISTS `upload_images`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
